@@ -572,3 +572,50 @@ label {
     width: 200px;
     height: 500px; 
 }
+
+
+/* Veille technologique */
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.article-container .article-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.article-box {
+    margin-bottom: 3rem;
+    width: 200px;
+    height: 270px;  
+}
+
+.article-container .article-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.article-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.article-box h3 {
+    font-size: 2.6rem;
+}
+
+.article-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
