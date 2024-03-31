@@ -35,6 +35,8 @@
       </nav>
     </header>
 
+    
+
     <!-- home section design -->
     <section class="home" id="home">
       <div class="home-content">
@@ -53,6 +55,56 @@
         <img src="images/" alt="">
       </div>-->
     </section>
+
+    <button onclick="togglePopup()">Ouvrir le Modal</button>
+
+    <div id="popup-1" class="modal">
+        <h2>Mon Modal</h2>
+        <p>Ceci est le contenu de mon modal.</p>
+        <button onclick="togglePopup()">Fermer</button>
+    </div>
+
+
+    <div id="popup-2" class="modal">
+      <h2>LATELIERS | Janvier 2024 - Mars 2024</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Optio, maxime itaque facilis ipsum ipsa voluptatibus fugit 
+        voluptates, nisi sequi numquam repellendus harum similique error 
+        qui illum. Expedita ullam quos fugit!</p>
+      <button onclick="togglePopup2()">Fermer</button>
+    </div>
+
+    <div id="popup-3" class="modal">
+      <h2>LANNKIN | Mai 2023 - Juin 2023</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Optio, maxime itaque facilis ipsum ipsa voluptatibus fugit 
+        voluptates, nisi sequi numquam repellendus harum similique error 
+        qui illum. Expedita ullam quos fugit!</p>
+      <button onclick="togglePopup3()">Fermer</button>
+    </div>
+
+    <div id="popup-4" class="modal">
+      <h2>SEEKAT | Avril 2022 - Mai 2022</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Optio, maxime itaque facilis ipsum ipsa voluptatibus fugit 
+        voluptates, nisi sequi numquam repellendus harum similique error 
+        qui illum. Expedita ullam quos fugit!</p>
+      <button onclick="togglePopup4()">Fermer</button>
+    </div>
+
+    <div id="popup-5" class="modal">
+      <h2>INFOGSM | Février 2022 - Mars 2022</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Optio, maxime itaque facilis ipsum ipsa voluptatibus fugit 
+        voluptates, nisi sequi numquam repellendus harum similique error 
+        qui illum. Expedita ullam quos fugit!</p>
+      <button onclick="togglePopup5()">Fermer</button>
+    </div>
+
+  <div class="overlay" onclick="togglePopup()"></div>
+    
+    <div class="overlay" onclick="togglePopup()"></div>
+
     <!-- about section design -->
     <section class="about" id="about">
       <div class="about-content">
@@ -107,6 +159,8 @@
             <li>Programmation événementielle en WinForms</li>
             <li>Création de procédure stockée en langage MySQL</li>
             </ul>
+
+            <button onclick="togglePopup2()">Ouvrir le Modal</button>
           </p>
           </div>
 
@@ -118,6 +172,7 @@
             <li>Travail sur la partie front-end des pages web des clients de l'entreprise</li>
             <li>Implémentation de modèle 3D avec script JavaScript via WordPress</li>
             </ul>
+            <button onclick="togglePopup3()">Ouvrir le Modal</button>
           </p>
           </div>
 
@@ -129,6 +184,8 @@
             <li>Installation et déploiement de connexion Internet</li>
             <li>Internet temporaire et de réseaux Wi-Fi</li>
             </ul>
+
+            <button onclick="togglePopup4()">Ouvrir le Modal</button>
           </p>
           </div>
 
@@ -137,6 +194,8 @@
             <ul>
             <li>Maintenance informatique</li> 
             </ul>
+
+            <button onclick="togglePopup5()">Ouvrir le Modal</button>
           </div>
         </div>
       </div>
