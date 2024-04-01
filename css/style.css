@@ -622,6 +622,26 @@ label {
 
 /* modal */
 
+/* .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #1f242d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 500px;
+    overflow: auto;
+}
+
+.modal img {
+    padding: 5em;
+} */
+
 .modal {
     display: none;
     position: fixed;
@@ -633,6 +653,24 @@ label {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 800px; /* Ajoutez une largeur maximale pour limiter la largeur du modal */
+    height: 700px; /* Utilisez la hauteur automatique pour que le contenu ajuste la taille du modal */
+    overflow: auto;
+}
+
+/* Réduisez la taille des images */
+.modal img {
+    max-width: 500px; /* Définissez une taille maximale pour les images */
+    max-height: 500px; /* Définissez une taille maximale pour les images */
+    display: block; /* Assurez-vous que les images sont affichées comme des blocs pour gérer les marges et les rembourrages */
+    margin: 0 auto; /* Centrez les images horizontalement */
+    padding: 10px; /* Ajoutez un peu de marge intérieure pour l'esthétique */
+}
+
+
+.modal p {
+    font-size: 15px;
 }
 
 /* .modal h2, .modal p {
@@ -658,5 +696,66 @@ label {
     display: block;
 } 
 
+/* modal slider img */
+
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.slider img {
+    max-width: 100%;
+    display: none;
+    width: 150px;
+    height: 150px;
+}
+
+img.active {
+    
+} */
+
+/* CG */
+
+/* Ajoutez du CSS pour masquer les slides par défaut */
+
+#slider {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.slide {
+    display: inline-block;
+    margin-right: 10px; 
+    vertical-align: top;
+}
+
+/* Style pour le bouton de navigation */
+.cont-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-nav {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-nav:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slide img {
+    max-width: 50px;
+    height: 50px;
+}
 
 

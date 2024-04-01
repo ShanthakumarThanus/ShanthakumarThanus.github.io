@@ -81,3 +81,40 @@ function togglePopup5(){
     document.querySelector(".overlay5").classList.toggle("active");
 }
 
+
+
+
+
+
+
+
+
+
+var slideIndex = 1;
+
+function togglePopup2() {
+    document.getElementById("popup-2").classList.toggle("active");
+    document.querySelector(".overlay").classList.toggle("active");
+}
+
+function previousSlide() {
+    showSlides(slideIndex -= 1);
+}
+
+function nextSlide() {
+    showSlides(slideIndex += 1);
+}
+
+function showSlides(n) {
+    var slides = document.getElementsByClassName("slide");
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+}
