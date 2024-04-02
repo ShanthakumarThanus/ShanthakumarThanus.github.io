@@ -118,3 +118,34 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
 }
+
+
+// Récupérez le modal et les images
+var modal = document.getElementById('popup-2');
+var images = document.querySelectorAll('#slider img');
+
+// Définissez une variable pour suivre l'index de l'image actuellement affichée
+var currentSlideIndex = 0;
+
+// Fonction pour afficher l'image appropriée dans le modal
+function showSlide(slideIndex) {
+    // Cachez toutes les images
+    images.forEach(function(image) {
+        image.style.display = 'none';
+    });
+
+    // Affichez l'image correspondant à l'index donné
+    images[slideIndex].style.display = 'block';
+}
+
+// Fonction pour ouvrir le modal et afficher la première image
+function openModal() {
+    modal.style.display = 'block';
+    showSlide(currentSlideIndex);
+}
+
+// Appeler la fonction openModal() lorsque le bouton est cliqué, ou n'importe quel autre événement pour ouvrir le modal
+
+
+
+

@@ -96,40 +96,44 @@
     <!-- CG -->
     <div id="popup-2" class="modal">
       <!-- Vos images ici -->
-      <div id="slider">
-          <img class="slide active" id="slide-1" src="images/img-lateliers/modal/lateliersres.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-2" src="images/img-lateliers/modal/1.jpg" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-3"src="images/img-lateliers/modal/2.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-4" src="images/img-lateliers/modal/3.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-5" src="images/img-lateliers/modal/4.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-6" src="images/img-lateliers/modal/5.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-7" src="images/img-lateliers/modal/6.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-8" src="images/img-lateliers/modal/7.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-9" src="images/img-lateliers/modal/8.png" title="Lateliers" alt="Lateliers" />
+      <div class="image-container">
+        <div id="slider">
+            <img class="slide active" id="slide-1" src="images/img-lateliers/modal/lateliersres.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-2" src="images/img-lateliers/modal/1.jpg" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-3"src="images/img-lateliers/modal/2.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-4" src="images/img-lateliers/modal/3.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-5" src="images/img-lateliers/modal/4.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-6" src="images/img-lateliers/modal/5.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-7" src="images/img-lateliers/modal/6.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-8" src="images/img-lateliers/modal/7.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-9" src="images/img-lateliers/modal/8.png" title="Lateliers" alt="Lateliers" />
 
-          <img class="slide" id="slide-10" src="images/img-lateliers/modal/interface/accueil.png" title="Lateliers" alt="Lateliers" />
-          <img class="slide" id="slide-11" src="images/img-lateliers/modal/interface/formulaire parent paramètrage.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-12" src="images/img-lateliers/modal/interface/formulaire fils paramètrage.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-10" src="images/img-lateliers/modal/interface/accueil.png" title="Lateliers" alt="Lateliers" />
+            <img class="slide" id="slide-11" src="images/img-lateliers/modal/interface/formulaire parent paramètrage.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-12" src="images/img-lateliers/modal/interface/formulaire fils paramètrage.png" title="Lateliers" alt="Lateliers"  />
 
-          <img class="slide" id="slide-13" src="images/img-lateliers/modal/9.png" title="Lateliers" alt="Lateliers"  />
-          <img class="slide" id="slide-14" src="images/img-lateliers/modal/10.png" title="Lateliers" alt="Lateliers"  />
-          <!-- Ajoutez les autres images ici -->
+            <img class="slide" id="slide-13" src="images/img-lateliers/modal/9.png" title="Lateliers" alt="Lateliers"  />
+            <img class="slide" id="slide-14" src="images/img-lateliers/modal/10.png" title="Lateliers" alt="Lateliers"  />
+            <!-- Ajoutez les autres images ici -->
+        </div>
+    
+        <!-- Boutons de navigation -->
+        <div class="cont-btn">
+            <div class="btn-nav left" onclick="previousSlide()">←</div>
+            <div class="btn-nav right" onclick="nextSlide()">→</div>
+        </div>
+    
+        <!-- Description ou contenu supplémentaire ici -->
+        <div class="text-container">
+          <p>
+              Pendant mon stage chez Lateliers, j'ai été fortement impliqué dans le processus de 
+              développement de la version 2.0 de leur application de gestion. Mon travail était 
+              principalement axé sur la modernisation de l'application, la correction de bogues 
+              et l'implémentation de fonctionnalités RFID. <!-- ajouter screen stage ex : backlog, code, team etc... -->
+          </p>
+        </div>
+        <button class="btn-fermer" onclick="togglePopup2()">Fermer</button>
       </div>
-  
-      <!-- Boutons de navigation -->
-      <div class="cont-btn">
-          <div class="btn-nav left" onclick="previousSlide()">←</div>
-          <div class="btn-nav right" onclick="nextSlide()">→</div>
-      </div>
-  
-      <!-- Description ou contenu supplémentaire ici -->
-      <p>
-          Pendant mon stage chez Lateliers, j'ai été fortement impliqué dans le processus de 
-          développement de la version 2.0 de leur application de gestion. Mon travail était 
-          principalement axé sur la modernisation de l'application, la correction de bogues 
-          et l'implémentation de fonctionnalités RFID. <!-- ajouter screen stage ex : backlog, code, team etc... -->
-      </p>
-      <button onclick="togglePopup2()">Fermer</button>
   </div>
   
     <!-- CG -->
