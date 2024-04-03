@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 
 
-/* modal */
+/* modal lateliers */
 
 function togglePopup(){
     document.getElementById("popup-1").classList.toggle("active");
@@ -147,5 +147,119 @@ function openModal() {
 // Appeler la fonction openModal() lorsque le bouton est cliqué, ou n'importe quel autre événement pour ouvrir le modal
 
 
+// double click img modal
+
+// Sélectionnez l'élément image
+var image1 = document.getElementById("slide-1");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image1.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image2 = document.getElementById("slide-2");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image2.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image3 = document.getElementById("slide-3");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image3.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image4 = document.getElementById("slide-4");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image4.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image5 = document.getElementById("slide-5");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image5.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image6 = document.getElementById("slide-6");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image6.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image7 = document.getElementById("slide-7");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image7.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image8 = document.getElementById("slide-8");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image8.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image9 = document.getElementById("slide-9");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image9.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image10 = document.getElementById("slide-10");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image10.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image11 = document.getElementById("slide-11");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image11.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image12 = document.getElementById("slide-12");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image12.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image13 = document.getElementById("slide-13");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image13.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
+
+var image14 = document.getElementById("slide-14");
+
+// Ajoutez un gestionnaire d'événements pour le double-clic sur l'image
+image14.addEventListener("dblclick", function() {
+    // Ouvrir l'image dans une nouvelle fenêtre
+    window.open(this.src, "_blank");
+});
 
 

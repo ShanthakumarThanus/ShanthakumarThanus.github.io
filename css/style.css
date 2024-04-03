@@ -793,4 +793,21 @@ img.active {
 }
 
 
+/* CSS pour agrandir l'image active */
+.modal img.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajuste l'image pour s'adapter à la zone */
+    z-index: 99999; /* Assurez-vous que l'image agrandie est au-dessus de tout */
+}
+
+
+
+
+
+
+
 
