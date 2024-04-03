@@ -261,5 +261,31 @@ image14.addEventListener("dblclick", function() {
     // Ouvrir l'image dans une nouvelle fenêtre
     window.open(this.src, "_blank");
 });
+  
+  
+// modal projet
 
+function togglePopupProjet1(){
+    document.getElementById("myModal-1").classList.toggle("active");
+    document.querySelector(".overlay").classList.toggle("active");
+}
 
+function togglePopupProjet2(){
+    document.getElementById("myModal-2").classList.toggle("active");
+    document.querySelector(".overlay2").classList.toggle("active");
+}
+
+function togglePopupProjet3(){
+    document.getElementById("popup-3").classList.toggle("active");
+    document.querySelector(".overlay3").classList.toggle("active");
+}
+
+function togglePopupProjet4(){
+    document.getElementById("popup-4").classList.toggle("active");
+    document.querySelector(".overlay4").classList.toggle("active");
+}
+
+function togglePopupProjet5(){
+    document.getElementById("popup-5").classList.toggle("active");
+    document.querySelector(".overlay5").classList.toggle("active");
+}

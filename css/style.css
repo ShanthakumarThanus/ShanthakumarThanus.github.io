@@ -659,6 +659,10 @@ label {
     overflow: auto;
 }
 
+.modal h2 {
+    padding: 5px;
+}
+
 /* Réduisez la taille des images */
 .modal img {
     max-width: 500px; /* Définissez une taille maximale pour les images */
@@ -732,6 +736,7 @@ img.active {
     vertical-align: top;
 }
 
+
 /* Style pour le bouton de navigation */
 .cont-btn {
     position: absolute;
@@ -783,9 +788,8 @@ img.active {
 
 .btn-fermer {
     position: absolute;
-    margin-top: 620px;
+    margin-top: 605px;
 }
-
 
 .text-container p {
     font-size: 16px;
@@ -803,6 +807,90 @@ img.active {
     object-fit: contain; /* Ajuste l'image pour s'adapter à la zone */
     z-index: 99999; /* Assurez-vous que l'image agrandie est au-dessus de tout */
 }
+
+/* modal lannkin */
+.btn-fermer-lannkin {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1100px;
+    margin-bottom: 20px;
+}
+
+.text-container-lannkin p {
+    margin-top: 10px; /* Espace entre l'image et le texte */
+    text-align: center;
+}
+
+/* modal seekat */
+
+#slider-seekat {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.slide-seekat {
+    display: inline-block;
+    margin-right: 10px; 
+    vertical-align: top;
+}
+
+.slide-seekat img {
+    max-width: 50px;
+    height: 50px;
+}
+
+.btn-fermer-seekat {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    margin-bottom: 20px;
+}
+
+.text-container-seekat p {
+    margin-top: 10px; /* Espace entre l'image et le texte */
+    text-align: center;
+}
+
+/* modal projet */
+
+slider-gsb1
+  
+#slider-gsb1 {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.slide-gsb1 {
+    display: inline-block;
+    margin-right: 10px; 
+    vertical-align: top;
+}
+
+.slide-gsb1 img {
+    max-width: 50px;
+    height: 50px;
+}
+
+.btn-fermer-seekat {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    margin-bottom: 20px;
+}
+
+.text-container-seekat p {
+    margin-top: 10px; /* Espace entre l'image et le texte */
+    text-align: center;
+}
+
+
 
 
 
