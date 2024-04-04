@@ -289,3 +289,10 @@ function togglePopupProjet5(){
     document.getElementById("myModal-5").classList.toggle("active");
     document.querySelector(".overlay5").classList.toggle("active");
 }
+
+//btn pdf
+
+document.getElementById("pdfButton").addEventListener("click", function() {
+    window.open("chemin/vers/votre/fichier.pdf", "_blank");
+  });
+  
