@@ -598,7 +598,7 @@ label {
 .article-box {
     margin-bottom: 3rem;
     width: 200px;
-    height: 270px;  
+    height: 600px;  
 }
 
 .article-container .article-box:hover {
@@ -888,6 +888,13 @@ slider-gsb1
 .text-container-seekat p {
     margin-top: 10px; /* Espace entre l'image et le texte */
     text-align: center;
+}
+
+.img-feedly {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
