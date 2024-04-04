@@ -276,16 +276,16 @@ function togglePopupProjet2(){
 }
 
 function togglePopupProjet3(){
-    document.getElementById("popup-3").classList.toggle("active");
+    document.getElementById("myModal-3").classList.toggle("active");
     document.querySelector(".overlay3").classList.toggle("active");
 }
 
 function togglePopupProjet4(){
-    document.getElementById("popup-4").classList.toggle("active");
+    document.getElementById("myModal-4").classList.toggle("active");
     document.querySelector(".overlay4").classList.toggle("active");
 }
 
 function togglePopupProjet5(){
-    document.getElementById("popup-5").classList.toggle("active");
+    document.getElementById("myModal-5").classList.toggle("active");
     document.querySelector(".overlay5").classList.toggle("active");
 }
